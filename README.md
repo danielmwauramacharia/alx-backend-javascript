@@ -1,1 +1,1 @@
-Learning Javascript for backend applications
+Learning the ES6 basics
