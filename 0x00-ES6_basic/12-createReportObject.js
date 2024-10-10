@@ -5,9 +5,9 @@ export default function createReportObject(employeesList) {
     allEmployees: employeesList,
     getNumberOfDepartments: (allEmployees) => {
       let count = 0;
-      for (const _ in allEmployees) {
+      for (const key in allEmployees) {
         count += 1;
-      };
+      }
       return count;
     },
   };
