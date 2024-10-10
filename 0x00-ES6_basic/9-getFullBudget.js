@@ -8,4 +8,4 @@ export default function getFullBudgetObject(income, gdp, capita) {
     getIncomeInEuros: () => `${fullBudget.income} euros`,
   };
   return fullBudget;
-};
+}
